@@ -17,72 +17,29 @@
 </head>
 
 <body>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top text-light bg-dark"
-            style="background: #00021c !important;">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="https://www.etvwin.com/assets/img/logo.png" height="50px" width="50px" alt=""
-                        class="logo-img justify-content-end">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/home') }}">HOME</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/tv-shows') }}">TV SHOWS</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/movies') }}">MOVIES</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/live-tv') }}">LIVE TV</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/news') }}">NEWS</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/food') }}">FOOD</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="btn nav-link text-light" href="{{ url('/health') }}">HEALTH</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/search') }}">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/profile') }}">
-                                <i class="fas fa-user"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('C:/xampp/firoj/webwin_project/image/subscribe.png') }}">
-                                <img src="https://www.etvwin.com/assets/img/subscribe-small.png" height="25px"
-                                    width="100px" alt="" class="subscription-img">
-                            </a>
-                        </li>
-                    </ul>
+    <div class="">
+        <div class=" row px-4 bg-dark">
+            <div class=" col-md-4  "><img src="_https://www.etvwin.com/assets/img/logo.png" alt="" srcset=""></div>
+            <div class=" col-md-4 ">
+                <div class="row py-3">
+                    <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Movie</a></div>
+                    <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Video</a></div>
+                    <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Songs</a></div>
+                    <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">About</a></div>
                 </div>
             </div>
-        </nav>
-
-
+            <div class=" col-md-4 ">
+                <div class=" row py-3">
+                    <div class=" col-md-8 "></div>
+                    <div class=" col-md-4 text-center "><a class=" btn text-light" href="">LogOut</a></div>
+                </div>
+            </div>
+        </div>
 
     </div>
     <div class="container">
-        <div class="container p-5">
-            <div class="container p-5">
+        <div class="container">
+            <div class="container">
                 <div id="carouselExampleIndicators" class="carousel slide">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
