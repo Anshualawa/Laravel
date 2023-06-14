@@ -25,13 +25,22 @@
                     <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Movie</a></div>
                     <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Video</a></div>
                     <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Songs</a></div>
-                    <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">About</a></div>
+                    <div class=" col-md-3 text-center  "><a class=" btn text-light" href="">Real</a></div>
                 </div>
             </div>
             <div class=" col-md-4 ">
                 <div class=" row py-3">
                     <div class=" col-md-8 "></div>
-                    <div class=" col-md-4 text-center "><a class=" btn text-light" href="">LogOut</a></div>
+                    <div class=" col-md-4 text-center ">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Login
+                            </a>
+                            <ul class="dropdown-menu bg-dark  text-center">
+                                <li><a class="dropdown-item text-light" href="#">Admin</a></li>
+                                <li><a class="dropdown-item text-light" href="#">User</a></li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
