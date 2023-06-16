@@ -18,8 +18,9 @@
         <!-- place navbar here -->
     </header>
     <main>
-
-        Welcome
+<h5>{{date('d-M-Y')}}</h5>
+<h5>{{time()}}</h5>
+        Welcome, {{$name ?? "Gest"}}
 
     </main>
     <footer>

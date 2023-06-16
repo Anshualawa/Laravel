@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/{name?}', function ($name) {
-    return view('home');
+Route::get('/{name?}', function ($name = null) {
+    $data = compact('name');
+    return view('Home')->with($data);
 });
