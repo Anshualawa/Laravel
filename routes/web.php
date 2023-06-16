@@ -32,3 +32,17 @@ Route::get('/nav-bar', function () {
 Route::get('/tv-shows', function () {
     return view('tv-shows');
 });
+
+Route::any('/test', function () {
+    echo 'Testing the route';
+});
+// POST Method 
+
+Route::post('/test', function () {
+    echo 'Testing the route';
+});
+
+Route::get('/demo/{name}/{id?}', function ($name, $id = null) {
+    $data = compact('name', 'id');
+    return view('demo')->with($data);
+});
