@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\demoControler;
+use App\Http\Controllers\singleActionController;
+use App\Http\Controllers\PhotController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,10 +15,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function () {
-    return view('home');
-});
 
-Route::get('/about', function () {
-    return view(('about'));
-});
+Route::get('/', [demoControler::class, 'index']);
+Route::get('/about', 'App\Http\Controllers\demoControler@about');
+Route::get('/help', singleActionController::class);
+Route::resource('photo', PhotController::class);
