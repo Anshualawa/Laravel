@@ -10,7 +10,8 @@
             <div class="col-4">
                 <div class="row p-5">
                     <div class="shadow bg-light p-5 rounded-3">
-                        <form>
+                        <form action="{{ url('/') }}/register" >
+                            @csrf
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"

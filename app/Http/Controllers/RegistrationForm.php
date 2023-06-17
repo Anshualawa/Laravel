@@ -10,4 +10,8 @@ class RegistrationForm extends Controller
     {
         return view('form');
     }
+    public function register()
+    {
+        echo 'Post Method';
+    }
 }

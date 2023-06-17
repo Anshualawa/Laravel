@@ -22,3 +22,4 @@ Route::get('/about', 'App\Http\Controllers\demoControler@about');
 Route::get('/help', singleActionController::class);
 Route::resource('photo', PhotController::class);
 Route::get('/register', [RegistrationForm::class, 'index']);
+Route::get('/register', [RegistrationForm::class, 'register']);
