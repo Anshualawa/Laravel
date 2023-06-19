@@ -10,6 +10,22 @@ class RegistrationForm extends Controller
     {
         return view('form');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
+    public function _login(Request $request)
+    {
+        $request->validate(
+            [
+                'email' => 'required|email',
+                'password' => 'required',
+            ]
+        );
+        echo "<pre>";
+        print_r($request->all());
+    }
     public function register(Request $request)
     {
 
