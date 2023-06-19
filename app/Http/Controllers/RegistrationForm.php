@@ -10,8 +10,9 @@ class RegistrationForm extends Controller
     {
         return view('form');
     }
-    public function register()
+    public function register(Request $request)
     {
-        echo 'Post Method';
+        echo"<pre>";
+        print_r($request->all());
     }
 }
