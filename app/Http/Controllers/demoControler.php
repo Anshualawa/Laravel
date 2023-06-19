@@ -15,4 +15,8 @@ class demoControler extends Controller
     {
         return view('about');
     }
+    public function developer()
+    {
+        return view('developer');
+    }
 }

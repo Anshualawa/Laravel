@@ -4,5 +4,5 @@
 @endpush
 
 @section('main-section')
-    <h1 class="text-center">  Home page</h1>
+    <h1 class="text-center my-5"> Home page</h1>
 @endsection

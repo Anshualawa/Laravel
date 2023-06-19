@@ -6,5 +6,5 @@
 
 
 @section('main-section')
-    <h1 class="text-center"> About page</h1>
+    <h1 class="text-center my-5"> About page</h1>
 @endsection

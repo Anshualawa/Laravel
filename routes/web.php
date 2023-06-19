@@ -17,6 +17,7 @@ use App\Http\Controllers\RegistrationForm;
 |
 */
 
+Route::get('/developer', 'App\Http\Controllers\demoControler@developer');
 Route::get('/', [demoControler::class, 'index']);
 Route::get('/about', 'App\Http\Controllers\demoControler@about');
 Route::get('/help', singleActionController::class);
