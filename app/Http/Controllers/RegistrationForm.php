@@ -12,7 +12,16 @@ class RegistrationForm extends Controller
     }
     public function register(Request $request)
     {
-        echo"<pre>";
+
+        $request->validate(
+            [
+                'name' => 'required',
+                'email' => 'required|email',
+                'password' => 'required|confirmed',
+                'password_confirmation' => 'required'
+            ]
+        );
+        echo "<pre>";
         print_r($request->all());
     }
 }
