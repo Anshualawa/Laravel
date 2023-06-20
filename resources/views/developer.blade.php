@@ -19,7 +19,7 @@
                                 style="width: 150px; z-index: 1">
                             <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
                                 style="z-index: 1;">
-                                Edit profile
+                                @CodeVerse
                             </button>
                         </div>
                         <div class="ms-3" style="margin-top: 130px;">
@@ -38,7 +38,7 @@
                                 <p class="small text-muted mb-0">Followers</p>
                             </div>
                             <div>
-                                <p class="mb-1 h5">478</p>
+                                <p class="mb-1 h5">37</p>
                                 <p class="small text-muted mb-0">Following</p>
                             </div>
                         </div>
@@ -53,26 +53,26 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-between align-items-center mb-4">
-                            <p class="lead fw-normal mb-0">Recent photos</p>
+                            <p class="lead fw-normal mb-0">Recent Work Status</p>
                             <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>
                         </div>
                         <div class="row g-2">
                             <div class="col mb-2">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(112).webp"
+                                <img src="https://img.freepik.com/free-photo/3d-rendering-biorobots-concept_23-2149524399.jpg?t=st=1687175529~exp=1687176129~hmac=9f58cee7b3a6e695c7c58bd85fa9ebf1e226bf99487443feaf01280f58a1a679"
                                     alt="image 1" class="w-100 rounded-3">
                             </div>
                             <div class="col mb-2">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(107).webp"
+                                <img src="https://img.freepik.com/premium-photo/future-artificial-intelligence-robot-cyborg_31965-6980.jpg"
                                     alt="image 1" class="w-100 rounded-3">
                             </div>
                         </div>
                         <div class="row g-2">
                             <div class="col">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(108).webp"
+                                <img src="https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?w=1380&t=st=1687175533~exp=1687176133~hmac=176b47fb2663be96bb3198a8228dde49effcbb625d2117d86e7db7c4b39a498b"
                                     alt="image 1" class="w-100 rounded-3">
                             </div>
                             <div class="col">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(114).webp"
+                                <img src="https://img.freepik.com/free-photo/teenager-dressed-white-t-shirt-using-virtual-reality-glasses-with-graph-charts-numbers-lines-technology-concept_613910-5097.jpg?t=st=1687175529~exp=1687176129~hmac=3f3a63c802b3b49dbd5871d70623700d460ad444b0a8ee5f92fed9050fdc5387"
                                     alt="image 1" class="w-100 rounded-3">
                             </div>
                         </div>
